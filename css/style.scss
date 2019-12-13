@@ -39,28 +39,28 @@ html, body {
     -webkit-text-fill-color:transparent;
   }
 
-  .potente p {
-	background: linear-gradient(31deg, $darkBlue, $primaryColor);
-    -webkit-background-clip: text;
-	-webkit-text-fill-color:transparent;
-	font-size: 1.25rem;
-	text-transform: uppercase;
-	font-weight: bold !important;
-  }
+	.potente p {
+		background: linear-gradient(31deg, $darkBlue, $primaryColor);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color:transparent;
+		font-size: 1.25rem;
+		text-transform: uppercase;
+		font-weight: bold !important;
+	}
 
-  .potencia {
-	color: $primaryColor;
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-	font-size: 1.8em;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-style: italic;
-  }
+	.potencia {
+		color: $primaryColor;
+		font-family: 'Noto Sans', sans-serif;
+		text-align: center;
+		font-size: 1.8em;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-style: italic;
+	}
 
-  .potente img {
-	  margin-bottom: 3vh;
-  }
+	.potente img {
+		margin-bottom: 3vh;
+	}
 
 	.imgEfect {
 		transition: all .2s ease-in-out
@@ -71,7 +71,7 @@ html, body {
 
 	.section2 {
 		background: linear-gradient(31deg, #111, #333);
-		padding: 20px 0;
+		padding: 25px;
 	}
 
 	.section2 h2 {
@@ -91,6 +91,53 @@ html, body {
 		font-weight: 400;
 		line-height: 1.5;
 		
+	}
+
+	.colorText {
+		font-size: 1.8rem;
+		font-weight: 700;
+		background: linear-gradient(31deg, $darkBlue, $primaryColor);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color:transparent;
+	}
+
+	.offer {
+		color: #363636;
+		font-size: 1.25rem;
+		font-weight: 300;
+		line-height: 1.125;
+	}	
+
+	.blackbutton {
+		background-color: $darkBlue;
+		padding: 15px;
+		font-size: 1.65rem;
+		font-weight: 700;
+		text-align: center;
+		border: solid $darkBlue 4px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		color: #fff;
+		font-family: 'Noto Sans', sans-serif;
+	}
+
+	.greenbutton {
+		background-color: #27ae60;
+				font-family: 'Noto Sans', sans-serif;
+		text-align: center;
+		padding: 2.5% 4%;
+		border: none;
+		cursor: pointer;
+		font-weight: 700;
+		color: #fff;
+		border-radius: 2px;
+		font-size: 28px;
+		box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+
+		overflow: hidden;
+		margin: 0 auto;
+
 	}
 
 	.slider {

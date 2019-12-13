@@ -68,7 +68,7 @@ html, body {
 
 .section2 {
   background: linear-gradient(31deg, #111, #333);
-  padding: 20px 0;
+  padding: 25px;
 }
 
 .section2 h2 {
@@ -87,6 +87,52 @@ html, body {
   color: #fff;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.colorText {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(31deg, #001d26, #08c2f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.offer {
+  color: #363636;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.125;
+}
+
+.blackbutton {
+  background-color: #001d26;
+  padding: 15px;
+  font-size: 1.65rem;
+  font-weight: 700;
+  text-align: center;
+  border: solid #001d26 4px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.greenbutton {
+  background-color: #27ae60;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding: 2.5% 4%;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 28px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .slider {
