@@ -43,7 +43,7 @@ html, body {
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   margin: 0 auto;
-  font-family: "Impact", sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 .greenbutton2 {
@@ -61,7 +61,7 @@ html, body {
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   margin: 0 auto;
-  font-family: "Impact", sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 .blackbutton {
@@ -831,6 +831,11 @@ html, body {
   }
   .greenbutton {
     width: 100%;
+    font-size: 20px;
+  }
+  .greenbutton2 {
+    width: 100%;
+    font-size: 20px;
   }
   #block-11 .container {
     padding: 60px 0 100px;
