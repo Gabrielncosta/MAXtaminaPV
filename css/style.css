@@ -515,7 +515,7 @@ html, body {
 }
 
 #block-11 .plans .item .to {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 900;
   font-style: italic;
   color: #08c2f8;
@@ -724,7 +724,14 @@ html, body {
   color: #999;
 }
 
+.logo figure img {
+  width: 300px !important;
+}
+
 @media (max-width: 1199px) {
+  .logo figure img {
+    width: 50%;
+  }
   #block-11 .plans {
     margin: 0 -10px 30px;
   }
@@ -751,15 +758,15 @@ html, body {
     font-size: 20px;
   }
   #block-11 .plans .item .to b {
-    font-size: 45px;
+    font-size: 30px !important;
     letter-spacing: normal;
   }
   #block-11 .plans .item .to b small {
     font-size: 20px;
   }
   #block-11 .plans .item .to sup {
-    font-size: 30px;
-    margin: 0 0 0 -5px;
+    font-size: 20px !important;
+    margin: 0 5px;
   }
   #block-11 .plans .item .in-cash {
     font-size: 16px;

@@ -21,13 +21,13 @@
         <a href="#" target="_blank"><img src="images/ico_transport_2.png" alt="Rastreie aqui seu pedido">Rastreie aqui seu pedido</a>
     </div> -->
     <div class="row mt-5">
-        <div class="logo col-6 text-center d-flex align-items-center justify-content-center">
+        <div class="logo col-sm-6 text-center d-flex align-items-center justify-content-center">
             <figure>
-                <img src="images/logo.png" class="img-fluid" style="width: 300px;" alt="">
+                <img src="images/logo.png" class="img-fluid" alt="">
             </figure>
         </div>
 
-        <div class="col-md-3 my-auto">
+        <div class="col-md-3 text-center my-auto">
             <p class="offer">  Oferta temporária até: <span class="day"></span></p>
         </div>
     </div>
@@ -299,7 +299,7 @@
               <li><b>FRETE 100% GRÁTIS (SÓ HOJE)</b></li>
             </ul>
             <div class="from">de <span>R$399</span> por apenas</div>
-            <div class="to">12x de <b><small>R$</small>22,</b><sup>30</sup></div>
+            <div class="to">12x de R$ 22,30 </div>
             <div class="in-cash">ou R$197,00 à vista</div>
             <div class="btn-buy-2">Comprar</div>
           </a></div>
@@ -319,7 +319,7 @@
               <!--<li>- Controle Remoto Para Navegação</li>-->
             </ul>
             <div class="from">de <span>R$599</span> por apenas</div>
-            <div class="to">12x de <b><small>R$</small>33,</b><sup>63</sup></div>
+            <div class="to">12x de R$33,63</div>
             <div class="in-cash">ou R$297,00 à vista</div>
             <div class="btn-buy-2">Comprar</div>
             <div class="best-seller"><b>Kit mais vendido</b><br>Diversão em dobro garantida</div>
@@ -339,7 +339,7 @@
               <li><b>FRETE 100% GRÁTIS (SÓ HOJE)</b></li>
             </ul>
             <div class="from">de <span>R$699</span> por apenas</div>
-            <div class="to">12x de <b><small>R$</small>44,</b><sup>95</sup></div>
+            <div class="to">12x de R$44,95</div>
             <div class="in-cash">ou R$397,00 à vista</div>
             <div class="btn-buy-2">Comprar</div>
           </a></div>
@@ -586,112 +586,90 @@
   </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
-  <!--   <div class="container-fluid blacktexture">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="images/logo.png" class="img-fluid" alt="">
-            </div>
-        </div>
+<script src="js/timer.min.js"></script>
 
-        <div class="row mt-5">
-            <div class="col-md-4 mx-auto text-center" style="color: white;">
-                <h6>Copyright 2019 - Warm Fit - Direitos Reservados</h6>
-                <p>Novabelle International Brands Distribuidora LTDA  Rua Virgílio de Castro Neves, 950 - Jd. Palmares - Ribeirão Preto - SP CEP: 14092-440 / CNPJ: 32.172.456/0001-25</p>
-            </div>
-        </div>
-        <div class="row pb-5">
-            <div class="col-md-4 mx-auto text-center">
-                <a href="politica-de-privacidade.html">Políticas de privacidade |</a>
-                <a href="termos-de-uso.html">Termos de Uso |</a>
-                <a href="contato.html">Contato |</a>
-            </div>
-        </div>
-    </div> -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    n = new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    document.querySelector(".day").innerHTML = d + "/" + m + "/" + y;
+    document.querySelector(".day2").innerHTML = d + "/" + m + "/" + y;
+</script>
 
-    <script src="js/timer.min.js"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    $('.autoplay').slick({
+    slidesToShow: 8,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    });
+    $(".vertical-center-4").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 4,
+      slidesToScroll: 2
+    });
+    $(".vertical-center-3").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".vertical-center-2").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+      slidesToShow: 2,
+      slidesToScroll: 2
+    });
+    $(".vertical-center").slick({
+      dots: true,
+      vertical: true,
+      centerMode: true,
+    });
+    $(".vertical").slick({
+      dots: true,
+      vertical: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3
+    });
+    $(".center").slick({
+      dots: true,
+      infinite: true,
+      centerMode: true,
+      slidesToShow: 5,
+      slidesToScroll: 3
+    });
+    $(".variable").slick({
+      dots: true,
+      infinite: true,
+      variableWidth: true
+    });
+    $(".lazy").slick({
+      lazyLoad: 'ondemand', // ondemand progressive anticipated
+      infinite: true
+    });
+  });
 
-    <script type="text/javascript">
-        n = new Date();
-        y = n.getFullYear();
-        m = n.getMonth() + 1;
-        d = n.getDate();
-        document.querySelector(".day").innerHTML = d + "/" + m + "/" + y;
-        document.querySelector(".day2").innerHTML = d + "/" + m + "/" + y;
-    </script>
-
-    <script type="text/javascript">
-      $(document).on('ready', function() {
-        $('.autoplay').slick({
-        slidesToShow: 8,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        });
-        $(".vertical-center-4").slick({
-          dots: true,
-          vertical: true,
-          centerMode: true,
-          slidesToShow: 4,
-          slidesToScroll: 2
-        });
-        $(".vertical-center-3").slick({
-          dots: true,
-          vertical: true,
-          centerMode: true,
-          slidesToShow: 3,
-          slidesToScroll: 3
-        });
-        $(".vertical-center-2").slick({
-          dots: true,
-          vertical: true,
-          centerMode: true,
-          slidesToShow: 2,
-          slidesToScroll: 2
-        });
-        $(".vertical-center").slick({
-          dots: true,
-          vertical: true,
-          centerMode: true,
-        });
-        $(".vertical").slick({
-          dots: true,
-          vertical: true,
-          slidesToShow: 3,
-          slidesToScroll: 3
-        });
-        $(".regular").slick({
-          dots: true,
-          infinite: true,
-          slidesToShow: 3,
-          slidesToScroll: 3
-        });
-        $(".center").slick({
-          dots: true,
-          infinite: true,
-          centerMode: true,
-          slidesToShow: 5,
-          slidesToScroll: 3
-        });
-        $(".variable").slick({
-          dots: true,
-          infinite: true,
-          variableWidth: true
-        });
-        $(".lazy").slick({
-          lazyLoad: 'ondemand', // ondemand progressive anticipated
-          infinite: true
-        });
-      });
-
-      $('.questions .item .answer').on('click',function(){
-		$('.questions .item .question').not($(this).next()).slideUp('fast');
-		$('.questions .item .answer').not($(this)).parent().removeClass('active');
-		$(this).parent().toggleClass('active');
-		$(this).next('.question').slideToggle('fast');
-	});
+  $('.questions .item .answer').on('click',function(){
+  $('.questions .item .question').not($(this).next()).slideUp('fast');
+  $('.questions .item .answer').not($(this)).parent().removeClass('active');
+  $(this).parent().toggleClass('active');
+  $(this).next('.question').slideToggle('fast');
+});
 </script>
 </body>
 </html>
