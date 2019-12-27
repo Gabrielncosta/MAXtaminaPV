@@ -343,6 +343,22 @@ html, body {
 .pirate {
   background-color: #eee;
 }
+
+.faixaprice {
+  height: 50px;
+  width: 100%;
+  background-color:#333;
+  border-radius: 4px;
+  color: rgb(240, 255, 37);
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+}
 /* código reutilizado */
 
 
@@ -398,8 +414,8 @@ html, body {
 	text-shadow: 2px 2px 0 rgba(0,0,0,.15);
 	text-transform: uppercase;
 	position: absolute;
-	top: -45px;
-	right: 30px;
+	top: 15px;
+	right: 10px;
 	animation: zoominout 3s infinite;
 }
 
