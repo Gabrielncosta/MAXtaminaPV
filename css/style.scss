@@ -36,7 +36,7 @@ html, body {
 		background-color: #27ae60;
 		font-family: 'Noto Sans', sans-serif;
 		text-align: center;
-		padding: 2.5% 4%;
+		padding: 1.5% 2%;
 		border: none;
 		cursor: pointer;
 		font-weight: 300;
@@ -50,19 +50,16 @@ html, body {
   }
 
   .greenbutton2 {
-		background-color: #27ae60;
-		font-family: 'Noto Sans', sans-serif;
+    background-color: #27ae60;
+    font-family: 'Noto Sans', sans-serif;
 		text-align: center;
-		padding: 1.2% 4%;
+    padding: 20px;
 		border: none;
 		cursor: pointer;
 		font-weight: 300;
 		color: #fff;
-		border-radius: 2px;
+		border-radius: 5px;
 		font-size: 28px;
-		box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
-		overflow: hidden;
-    margin: 0 auto;
     font-family: 'Anton', sans-serif;
   }
   
@@ -807,8 +804,8 @@ html, body {
   }
 
   .greenbutton2 {
-    width: 100%;
-    font-size: 20px;
+    font-size: 26px;
+    padding: 10px;
   }
 
   #block-11 .container {
