@@ -782,7 +782,19 @@ html, body {
 @media (max-width: 794px) {
 
   h3 {
+    font-size: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  h1 {
     font-size: 2rem !important;
+  }
+
+  .section2 img {
+    display: none;
   }
 
   .blackbutton {
