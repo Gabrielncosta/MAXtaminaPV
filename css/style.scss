@@ -234,10 +234,6 @@ html, body {
       line-height: 1.5;
       color: #333;
     }
-
-    img {
-      width: 80%;
-    }
   }
 
   .bg {
@@ -450,7 +446,7 @@ html, body {
 }
 
 #block-11 .plans .item ul li {
-	display: flex;
+  text-align: center;
 	align-items: center;
 	font-size: 15px;
 	color: #575757;
@@ -673,10 +669,78 @@ html, body {
 	font-size: 18px;
 	color: #999;
 }
-	
-@media (max-width: 994px) {
 
-  #block-14 .container {
+@media (max-width: 1199px) {
+
+  #block-11 .plans {
+		margin: 0 -10px 30px;
+	}
+
+	#block-11 .plans .item a {
+		padding: 50px 25px 25px;
+	}
+
+	#block-11 .plans .item .discount {
+		top: -35px;
+		right: 29px;
+	}
+
+	#block-11 .plans .item .title {
+		font-size: 13px;
+	}
+
+	#block-11 .plans .item .title b {
+		font-size: 28px;
+	}
+
+	#block-11 .plans .item ul li {
+		font-size: 14px;
+	}
+
+	#block-11 .plans .item .from {
+		font-size: 18px;
+	}
+
+	#block-11 .plans .item .to {
+		font-size: 20px;
+	}
+
+	#block-11 .plans .item .to b {
+		font-size: 45px;
+		letter-spacing: normal;
+	}
+
+	#block-11 .plans .item .to b small {
+		font-size: 20px;
+	}
+
+	#block-11 .plans .item .to sup {
+		font-size: 30px;
+		margin: 0 0 0 -5px;
+	}
+
+	#block-11 .plans .item .in-cash {
+		font-size: 16px;
+		margin: 0 0 25px;
+	}
+
+	#block-11 .plans .item .btn-buy-2 {
+		width: 180px;
+		height: 49px;
+		margin: auto;
+	}
+
+	#block-11 .plans .item .best-seller {
+		padding:  15px 15px 10px;
+		font-size: 14px;
+		margin: 25px -20px -20px;
+	}
+
+	#block-11 .plans .item .best-seller b {
+		font-size: 22px;
+  }
+  
+   #block-14 .container {
     padding: 80px 0 100px;
   }
 
@@ -711,6 +775,103 @@ html, body {
   .selo-bottom-left{
     display: none;
   }
+}
+
+
+
+@media (max-width: 794px) {
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  .blackbutton {
+    width: 100%;
+  }
+
+  .greenbutton {
+    width: 100%;
+  }
+
+  #block-11 .container {
+    padding: 60px 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+  
+  .discount {
+    display: none !important;
+  }
+
+	#block-11 .plans {
+		flex-flow: column;
+		margin: 0;
+	}
+
+	#block-11 .plans .col {
+    margin: auto;
+		max-width: 80%;
+		min-width: 80%;
+		padding: 0;
+	}
+
+	#block-11 .plans .col.recommended {
+		order: -2;
+	}
+
+	#block-11 .plans .col:last-child {
+		order: -1;
+	}
+
+	#block-11 .plans .item {
+		margin: 0 0 50px;
+	}
+
+	#block-11 .payment .desktop {
+		display: none;
+	}
+
+	#block-11 .payment .mobile {
+		display: block;
+	}
+
+	#block-11 .plans .item .title {
+		font-size: 16px;
+	}
+
+	#block-11 .plans .item .title b {
+		font-size: 40px;
+	}
+
+	#block-11 .plans .item .from {
+		font-size: 20px;
+	}
+
+	#block-11 .plans .item .iptv {
+		font-size: 20px;
+	}
+
+	#block-11 .plans .item .to {
+		font-size: 24px;
+	}
+
+	#block-11 .plans .item .to b {
+		font-size: 65px;
+	}
+
+	#block-11 .plans .item .to b small {
+		font-size: 30px;
+	}
+
+	#block-11 .plans .item .to sup {
+		font-size: 40px;
+	}
+
+	#block-11 .plans .item .in-cash {
+		font-size: 20px;
+  }
+  
+
 }
 
 
