@@ -786,6 +786,10 @@ html, body {
 
 @media (max-width: 794px) {
 
+  .greenbutton {
+    padding: 2.5% 4%;
+  }
+
   .max {
     text-align: center !important;
   }
@@ -871,7 +875,7 @@ html, body {
 	}
 
 	#block-11 .plans .item .title b {
-		font-size: 40px;
+		font-size: 2em;
 	}
 
 	#block-11 .plans .item .from {
