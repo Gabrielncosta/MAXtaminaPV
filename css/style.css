@@ -50,13 +50,13 @@ html, body {
   background-color: #27ae60;
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 20px 40px;
   border: none;
   cursor: pointer;
   font-weight: 300;
   color: #fff;
   border-radius: 5px;
-  font-size: 28px;
+  font-size: 32px;
   font-family: 'Anton', sans-serif;
 }
 
@@ -817,6 +817,9 @@ html, body {
 }
 
 @media (max-width: 794px) {
+  .max {
+    text-align: center !important;
+  }
   .italic {
     text-align: center !important;
   }
